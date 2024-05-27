@@ -1,0 +1,223 @@
+/* *{
+    background-color: hsl(217, 28%, 15%);
+} */
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital@0;1&display=swap");
+
+
+.header-container {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.header-part-container{
+    background-color: hsl(217,28%,15%);
+    height: 20vh;
+    display: flex;
+    justify-content: space-between;
+}
+.intro-image{
+    height: 400px;
+}
+.nav-links{
+    color: white;
+    text-decoration: none;
+
+}
+.nav-bar-container{
+    display: flex;
+    justify-content: center;
+}
+.logo{
+    height: 35px ;
+}
+.intro-image{
+    
+
+}
+.intro-container{
+    text-align: center;
+    padding: 30px;
+   
+
+}
+.intro-container > h4{
+    line-height: 30px;
+    margin-top: 30px;
+}
+.intro-container > p{
+    line-height: 30px;
+    margin-top:25px ;
+
+}
+#btn{
+    border: none;
+    background-color: hsl(176, 68%, 64%);
+    width: 210px;
+    padding: 10px;
+    border-radius: 20px;
+    font-weight: 600;
+    color: hsl(0, 0%, 100%);
+
+}
+.main-container{
+    background-color: hsl(217, 28%, 15%);
+    color: hsl(0, 0%, 100%);
+
+}
+.icon{
+    text-align: center;
+    margin: auto;
+    padding: 200px;
+    color: hsl(0, 0%, 100%);
+    display: grid;
+    grid-template-columns: repeat(2,500px);
+    background-image: url(./images/bg-curvy-desktop.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: hsl(217, 28%, 15%);
+}
+.file{
+    display: flex;
+    background-color: hsl(217, 28%, 15%);
+}
+.image{
+    margin-left: 100px;
+    margin-bottom: 100px;
+}
+.pro{
+    margin: 50px;
+    padding: 60px;
+    color: white;
+}
+#anchor{
+    text-decoration: none;
+    color: aqua;
+    padding: 10px;
+    border-bottom: 1px solid aqua;
+}
+.arrow{
+    padding-top: 0px;
+}
+.profile-1{
+
+    background-color: hsl(204, 75%, 13%);
+    color: white;
+    
+    margin-left: 10px;
+}
+.img{
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+}
+.profiles{
+    display: flex;
+    margin-left: 50px;
+    margin-inline-end: 50px;
+    justify-content: start;
+    align-content: space-around;
+    background-color: hsl(217, 28%, 15%);
+}
+.profile-2{
+
+    background-color: hsl(204, 75%, 13%);
+    color: white;
+   
+   
+    margin-left: 50px;
+}
+.profile-3{
+
+    background-color: hsl(204, 75%, 13%);
+    color: white;
+    
+    margin-left: 50px;
+}
+
+.content{
+    text-align: center;
+   
+   
+}
+.content-container1{
+    background-color: hsl(217, 28%, 15%);
+}
+.content-container{
+    background-color: rgb(4, 4, 24);
+    color: white;
+    height: 30vh;
+   
+    width: 700px;
+    margin-left: 300px;
+    
+
+    
+}
+.container-4{
+    background-color: hsl(217, 28%, 15%);
+
+}
+.form-control{
+    margin-left: 100px;
+    margin-block-end: 100px;
+    color: rgba(0, 0, 0, 1);
+    border-radius: 10px;
+
+}
+.forms{
+    margin-left: 150px;
+    color: rgba(253, 251, 251,1);
+    display: inline;
+    text-align: center;
+    border-radius: 10%;
+
+}
+.quote{
+    background-color: hsl(217, 28%, 15%);
+
+}
+.form{
+    border-radius: 20px;
+    padding: 10px;
+    margin-left: 100px;
+    border-left: 20px;
+}
+.btn{
+    border: none;
+    background-color: hsl(176, 68%, 64%);
+    width: 50px;
+    padding: 10px;
+    border-radius: 20px;
+    font-weight: 600;
+    color: hsl(0, 0%, 100%);
+}
+.container-2{
+    height: 350px;
+    width: 100%;
+    background-color: rgb(15, 15, 43);
+}
+.container-end{
+    color: white;
+    display: flex;
+    /* padding-top: 20px; */
+    margin-left :100px
+    
+}
+.location{
+    height: 30px;
+    width: 15px;
+    margin-right: 50px;
+    padding-top: 7px;
+}
+.phone{
+    width: 10px;
+    height: 10px;
+    margin-right: 10px;
+    display: block;
+}
+.emails{
+    width: 10px;
+    height: 10px;
+    display: block;
+}
